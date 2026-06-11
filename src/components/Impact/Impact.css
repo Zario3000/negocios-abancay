@@ -1,0 +1,84 @@
+.impact{
+
+    background:
+    linear-gradient(
+    135deg,
+    var(--primary),
+    #002b63
+    );
+
+    color:white;
+}
+
+.impact .section-tag{
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+}
+
+.impact .section-description{
+
+    color:#dbeafe;
+}
+
+.impact-grid{
+
+    margin-top:70px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+}
+
+.impact-card{
+
+    text-align:center;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.15);
+}
+
+.impact-card h3{
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+    color:var(--gold);
+}
+
+.impact-card p{
+
+    font-size:1rem;
+}
+
+@media(max-width:992px){
+
+    .impact-grid{
+
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:576px){
+
+    .impact-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .impact-card h3{
+
+        font-size:2.5rem;
+    }
+}
