@@ -9,7 +9,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Prototype() {
 
   const figmaLink =
-    "https://www.figma.com/";
+    "https://pupil-mural-60899132.figma.site/";
 
   return (
 
