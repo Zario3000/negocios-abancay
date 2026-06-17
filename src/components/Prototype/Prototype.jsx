@@ -75,7 +75,7 @@ whileInView={{ opacity:1 }}
         >
 
           <img
-            src={preview}
+            src="https://www.figma.com/make/cbyp2HjzVRHvZQAq0cWvkr/Prototipo-UI-UX-Centro-de-Negocios?t=THJXavMOkFxvajGo-1"
             alt="Figma Preview"
           />
 

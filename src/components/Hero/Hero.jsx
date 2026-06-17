@@ -1,6 +1,6 @@
 import "./Hero.css";
 
-import logo from "../../assets/images/logo_cna.jpg";
+import logo from "../../assets/images/olivo-persona.png";
 
 import { motion } from "framer-motion";
 
@@ -25,15 +25,13 @@ export default function Hero() {
 
           <h1>
 
-            Centro de Negocios Abancay
+            Encuentra oportunidades, construye tu futuro.
 
           </h1>
 
           <p>
 
-            Una plataforma digital que conecta personas,
-            emprendedores y empresas para generar
-            oportunidades económicas, empleo y negocios.
+            Empleos, servicios, alquiler de maquinaria, habitaciones y más en un solo lugar. Para personas como tú en Abancay
 
           </p>
 

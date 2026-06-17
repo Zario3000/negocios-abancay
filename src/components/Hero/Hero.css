@@ -9,11 +9,15 @@
     background:
     linear-gradient(
     135deg,
-    #ffffff 0%,
-    #f8fafc 100%
+    #ffffff 30%,
+    #aaafb3 100%
     );
 
     padding-top:120px;
+}
+.hero-right{
+ 
+    height: 100% ;
 }
 
 .hero-container{
