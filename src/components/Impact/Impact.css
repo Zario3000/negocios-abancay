@@ -61,7 +61,30 @@
 
     font-size:1rem;
 }
+.card-planes{
+    padding: 10px;
 
+    background-color: rgba(218, 210, 210, 0.358);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-planes h2{
+    background-color: rgba(219, 219, 99, 0.718);
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-planes h3{
+    color: rgb(43, 40, 40);
+    font-size: 30px;
+}
 @media(max-width:992px){
 
     .impact-grid{

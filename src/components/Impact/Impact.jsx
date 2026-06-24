@@ -43,7 +43,7 @@ export default function Impact() {
           </span>
 
           <h2 className="section-title">
-            Transformando la manera de conectar oportunidades
+            Planes y precios 
           </h2>
 
           <p className="section-description">
@@ -56,29 +56,23 @@ export default function Impact() {
 
         <div className="impact-grid">
 
-          {stats.map((item,index)=>(
-            <motion.div
-              key={index}
-              className="impact-card"
-              initial={{ opacity:0, scale:.8 }}
-              whileInView={{ opacity:1, scale:1 }}
-              viewport={{
-  once:false,
-  amount:0.2
-}}
-              transition={{
-                duration:.5,
-                delay:index*0.15
-              }}
-            >
-
-              <h3>{item.number}</h3>
-
-              <p>{item.title}</p>
-
-            </motion.div>
-          ))}
-
+         <div className="card-planes">
+          <h2>Plan gratis</h2>
+          <h3>$0.0</h3>
+          <ul>
+            <li>Seis anuncios por mes</li>
+            <li>Busqueda libre de anuncios</li>
+      
+          </ul>
+         
+         
+         </div>
+         <div className="card-planes"><h2>Plan Básico Mensual</h2> <h3>$10</h3> <ul><li>Búsque avanzada de anuncios</li>
+         <li>Diez anuncios por mes</li> <li>Anuncios más visibles</li></ul></div>
+         <div className="card-planes"><h2>Plan Premiun Mensual</h2> <h3>$15</h3> <ul><li>Anuncios ilimitados</li>
+         <li>anuncios con más visibilidad</li>
+         <li></li></ul></div>
+         
         </div>
 
       </div>
